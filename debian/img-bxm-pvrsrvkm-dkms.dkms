@@ -1,4 +1,4 @@
-PACKAGE_NAME="a733-pvrsrvkm-dkms"
+PACKAGE_NAME="img-bxm-pvrsrvkm-dkms"
 PACKAGE_VERSION="#MODULE_VERSION#"
 CLEAN="make LICHEE_TOOLCHAIN_PATH=/usr WINDOW_SYSTEM=nulldrmws \
 BUILD=release LICHEE_CROSS_COMPILER=aarch64-linux-gnu \

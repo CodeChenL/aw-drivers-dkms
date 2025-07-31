@@ -1,5 +1,0 @@
-#!/usr/bin/dh-exec
-
-src/modules/gpu/Kconfig usr/src/a733-pvrsrvkm-dkms-${DEB_VERSION}/
-src/modules/gpu/Makefile usr/src/a733-pvrsrvkm-dkms-${DEB_VERSION}/
-src/modules/gpu/img-bxm usr/src/a733-pvrsrvkm-dkms-${DEB_VERSION}/
