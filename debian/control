@@ -8,11 +8,12 @@ Build-Depends: debhelper (>=12~),
                lintian,
                dh-exec,
                pandoc,
+               dkms
 
-Package: aw-drivers-dkms
+Package: a733-pvrsrvkm-dkms
 Architecture: all
 Section: admin
 Priority: optional
 Depends: ${misc:Depends},
-Description: aw-drivers-dkms
- This package provides the aw-drivers-dkms.
+Description: dkms sources for Allwinner A733 GPU drivers
+ This package provides the dkms source code for Allwinner A733 GPU drivers.
