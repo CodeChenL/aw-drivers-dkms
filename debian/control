@@ -10,10 +10,11 @@ Build-Depends: debhelper (>=12~),
                pandoc,
                dh-dkms
 
-Package: img-bxm-pvrsrvkm-dkms
+Package: img-bxm-dkms
 Architecture: all
 Section: admin
 Priority: optional
 Depends: ${misc:Depends},
 Description: dkms sources for Allwinner platform IMG BXM GPU drivers
- This package provides the dkms source code for Allwinner platform IMG BXM GPU drivers.
+ This package provides the dkms source code for Allwinner platform
+ IMG BXM GPU drivers.
